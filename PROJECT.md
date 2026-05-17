@@ -9,7 +9,7 @@ The user flow:
 3. User selects 3–5 personas to form their focus group
 4. User asks up to 5 questions; each persona responds sequentially, then gets Likert-scored
 5. User clicks "Finish & See Summary" → synthesis runs across all rounds → scorecard appears
-6. Results can be copied as plain text or emailed via systeme.io
+6. Results can be copied as plain text
 
 ---
 
@@ -20,7 +20,6 @@ The user flow:
 - **AI**: Google Gemini (`gemini-2.5-flash`) via `@google/generative-ai` npm package
 - **State**: React `useReducer` — single reducer in `app/page.tsx`, no external state library
 - **Fonts**: DM Sans (body + headings, weight 400–800), JetBrains Mono (scores/numbers), DM Serif Display (imported but no longer used for primary headings)
-- **Email capture**: systeme.io form POST via `/api/capture-email`
 
 ### Critical version constraints (do NOT upgrade without testing)
 | Package | Version | Why pinned |
@@ -47,7 +46,6 @@ The user flow:
 │       ├── run-interview/route.ts      # Step 3: run one persona through one question
 │       ├── score-response/route.ts     # Step 4: Likert score a single response (1–5)
 │       ├── synthesize/route.ts         # Step 5: synthesize all scored responses → SynthesisResult
-│       └── capture-email/route.ts      # Optional: POST email to systeme.io
 ├── components/
 │   ├── HeroInput.tsx         # Landing page: own navbar, two-column hero, preview panel, feature strip, "How it works" modal
 │   ├── BuildingFocusGroup.tsx # Loading screen during extract+persona generation (cycling messages)
@@ -57,7 +55,6 @@ The user flow:
 │   ├── ResponseCard.tsx      # One persona's response + answered badge + thinking state + Likert badge
 │   ├── Scorecard.tsx         # Results dashboard: colored score hero, horizontal distribution bars, side-by-side insights grid
 │   ├── ShareButton.tsx       # Copy-to-clipboard button with multi-round transcript format
-│   ├── EmailCapture.tsx      # Email input → /api/capture-email
 │   ├── ProgressIndicator.tsx # Full-width sticky step navbar with circular icons (Describe → Choose Panel → Session → Results)
 │   └── LoadingState.tsx      # Simple centered animated loading message
 ├── lib/
@@ -65,7 +62,7 @@ The user flow:
 │   ├── gemini.ts             # callGemini() + parseJSON() utilities
 │   ├── prompts.ts            # All 5 prompt pairs (system + builder functions)
 │   └── rate-limit.ts         # Cookie-based rate limiting (3 runs/day)
-├── .env.local                # GEMINI_API_KEY, SYSTEME_IO_FORM_URL
+├── .env.local                # GEMINI_API_KEY
 ├── next.config.js
 ├── tailwind.config.ts
 ├── postcss.config.js
@@ -295,7 +292,6 @@ Added teal checkmark badge (top-right corner) when persona is selected.
 
 ```
 GEMINI_API_KEY=        # From https://aistudio.google.com/apikey — requires billing for >20 req/day
-SYSTEME_IO_FORM_URL=   # Optional: systeme.io form action URL for email capture
 ```
 
 ---

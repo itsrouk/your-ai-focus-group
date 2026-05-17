@@ -7,7 +7,6 @@
 - [ ] **Create a `.env.example` file** in the project root — This is what people who clone your repo will use as a template:
   ```
   GEMINI_API_KEY=your_gemini_api_key_here
-  SYSTEME_IO_FORM_URL=optional_your_systeme_io_form_url
   ```
 
 - [ ] **Delete or move personal/unrelated files** — These are in the project root and shouldn't be public:

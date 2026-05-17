@@ -19,7 +19,7 @@ Based on the follow-up Likert rating (FLR) method from a 2025 PyMC Labs / Colgat
 2. **Choose your panel** — Pick 3–5 personas from 10 AI-generated profiles
 3. **Ask questions** — Each persona responds one at a time and gets scored
 4. **Get results** — A scorecard with synthesis, consensus score, and key insights
-5. **Share** — Copy your full transcript or capture emails via the built-in form
+5. **Share** — Copy your full transcript as plain text
 
 ## Run It Yourself
 
@@ -52,7 +52,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | Variable | Required | Description |
 |---|---|---|
 | `GEMINI_API_KEY` | Yes | Your Google Gemini API key — get one free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
-| `SYSTEME_IO_FORM_URL` | No | Your Systeme.io embed URL — only needed if you want the email capture feature |
 
 ## Tech Stack
 
