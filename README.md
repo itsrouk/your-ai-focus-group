@@ -1,8 +1,6 @@
 # Your AI Focus Group
 
-You have a product idea, a tagline, a pitch — something you want feedback on. This tool spins up a panel of AI-generated personas, you interview them, and you walk away with a scorecard showing what landed, what didn't, and where your panel agreed or clashed. Takes a couple minutes. Costs nothing.
-
-[![Demo](public/your-ai-focus-group-mockup.png)](https://your-youtube-link)
+You have a product idea, a tagline, a pitch, or maybe something you just want feedback on. This tool spins up a panel of AI-generated personas, you interview them, and you walk away with a scorecard showing what landed, what didn't, and where your panel agreed or clashed. Takes a couple minutes. Costs nothing.
 
 ---
 
