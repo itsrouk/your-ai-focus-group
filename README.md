@@ -3,6 +3,7 @@
 You have a product idea, a tagline, a pitch, or maybe something you just want feedback on. This tool spins up a panel of AI-generated personas, you interview them, and you walk away with a scorecard showing what landed, what didn't, and where your panel agreed or clashed. Takes a couple minutes. Costs nothing.
 
 <img width="1429" height="746" alt="image" src="https://github.com/user-attachments/assets/c7af0c91-ef2c-4920-86ad-23e79628a985" />
+<img width="1189" height="748" alt="image" src="https://github.com/user-attachments/assets/c88cbe6a-4721-4dc8-bfca-b9feecc05ead" />
 
 ---
 
