@@ -9,17 +9,17 @@ You have a product idea, a tagline, a pitch, or maybe something you just want fe
 
 ## Why this exists
 
-I spent almost 10 years working for some of the largest advertising agencies, and I can tell you: focus groups are expensive, complicated, and that's exactly why they're not a standard part of most people's marketing workflow. They should be — but they're not.
+I spent almost 10 years working for some of the largest advertising agencies, and I can tell you: focus groups are expensive, complicated, and that's exactly why they're not a standard part of most people's marketing workflow. They should be, but they're not.
 
 Towards the end of 2025, Colgate-Palmolive partnered with a lab called PyMC to run a test. They built synthetic AI personas, asked them a bunch of purchase-intent questions, and then measured the responses against 9,300 actual human surveys. The AI responses were **90% accurate** to the real thing.
 
-Now I'm not going to sit here and tell you this tool is 90% accurate. But here's what I will tell you: even if it's only 55–60% accurate, that is a **game changer**. Because right now, most people reading this do zero focus groups. Going from nothing to a directional read in two minutes — for free — changes how you make decisions.
+Now, I'm not going to sit here and tell you this tool is 90% accurate. But here's what I will tell you: even if it's only 55–60% accurate, that is a **game changer**. Because right now, most people reading this do zero focus groups. Going from nothing to a directional read in two minutes — for free — changes how you make decisions.
 
 There's real science behind this. The method is called follow-up Likert rating (FLR), and having a methodology underneath it means you're not just asking ChatGPT for vibes.
 
 ## How it works
 
-You land on the page and it asks: **what do you want to test?**
+You land on the page, and it asks: **what do you want to test?**
 
 Type in your idea — a budgeting app for people in their 20s and 30s, a new tagline, a rebrand concept, whatever. Hit start.
 
