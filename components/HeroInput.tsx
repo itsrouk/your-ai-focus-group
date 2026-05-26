@@ -45,7 +45,7 @@ function HowItWorksModal({ onClose }: { onClose: () => void }) {
     { num: 1, title: 'Describe your idea', desc: "Tell the tool what you want to test: a product, a tagline, a pitch, anything. The tool strips your description down to its core, then removes brand bias and marketing language, so the personas it generates aren't primed to like (or dislike) your concept. This is key because it simulates how real research panels are recruited: around a category, not a brand." },
     { num: 2, title: 'Choose your panel', desc: "The tool generates 10 AI personas with different ages, incomes, attitudes, and levels of skepticism, matched to your concept's category. You just pick 3–5 to \"create\" your focus group. (Pro tip: Include the skeptics. That's where the real insights come from.)" },
     { num: 3, title: 'Ask your questions', desc: 'Ask up to 5 rounds of questions and get answers. Each persona responds independently in their own voice, the way real people do in actual focus groups. Every answer is scored 1–5 on a Likert scale, the same rating system used in the original research study.' },
-    { num: 4, title: 'Get actionable insights', desc: "A full scorecard with average score, sentiment breakdown, what's working, what needs work, and a clear recommendation. The methodology behind this tool matched human survey results with 90% accuracy across 9,300 real participants. You get the same thing in under 2 minutes by using this tool." },
+    { num: 4, title: 'Get actionable insights', desc: "A full scorecard with average score, sentiment breakdown, what's working, what needs work, and a clear recommendation. The research behind this approach found synthetic responses could match human survey patterns with up to 90% accuracy in specific tested conditions. This tool gives you a fast directional read in under 2 minutes." },
   ];
 
   return (
@@ -107,7 +107,7 @@ function WhatIsThisModal({ onClose }: { onClose: () => void }) {
           {[
             "This is a free AI-powered focus group tool.",
             "You describe your idea or product, and it generates realistic synthetic people who react to it like real consumers would.",
-            "It's based on a 2025 research paper by PyMC Labs and Colgate-Palmolive that tested this exact approach against 9,300 real human participants across 57 experiments, and the AI-generated responses matched real survey results with up to 90% accuracy.",
+            "It's based on a 2025 research paper by PyMC Labs and Colgate-Palmolive that tested synthetic responses against 9,300 real human participants across 57 experiments, where AI-generated responses matched human survey patterns with up to 90% accuracy in specific tested conditions.",
             "That means instead of spending $15,000+ and waiting 6 weeks for a traditional focus group, you can get honest, scored feedback on any idea in about 2 minutes. For free.",
             "The personas aren't generic chatbot answers. Each one has a different age, income, personality, and attitude toward your type of product. Some will love your idea and some won't, but that's the whole point.",
             "You ask the questions, they answer in their own voice, and the tool scores everything. It tells you what's working, what's not, and what to do about it.",
@@ -422,7 +422,7 @@ export default function HeroInput({ onSubmit, isLoading, error, isRateLimited }:
         {/* ── Footer ── */}
         <div className="section-container" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <p style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', letterSpacing: '0.08em', color: 'var(--text-muted)', textAlign: 'center' }}>
-            Built on proven AI research with up to 90% accuracy vs. human surveys. PyMC Labs / Colgate-Palmolive, 2025.
+            Inspired by AI research showing up to 90% agreement with human survey patterns in specific tested conditions. PyMC Labs / Colgate-Palmolive, 2025.
           </p>
         </div>
       </div>
