@@ -351,7 +351,7 @@ export default function HeroInput({ onSubmit, isLoading, error, isRateLimited }:
         {/* Footer */}
         <div className="section-container" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <p style={{ fontFamily: FONT_MONO, fontSize: '0.7rem', letterSpacing: '0.08em', color: 'var(--text-muted)', textAlign: 'center' }}>
-            Built on proven AI research with up to 90% accuracy vs. human surveys. PyMC Labs / Colgate-Palmolive, 2025.
+            Inspired by AI research showing up to 90% agreement with human survey patterns in specific tested conditions. PyMC Labs / Colgate-Palmolive, 2025.
           </p>
         </div>
       </div>

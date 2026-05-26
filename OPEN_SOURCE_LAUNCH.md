@@ -31,7 +31,7 @@
 - [ ] **Write a README.md** — This is your storefront. People land on GitHub and see this first. A good README includes:
   - What the app does (1-2 sentences)
   - A screenshot or demo GIF at the top
-  - How to run it locally (clone, install, set env vars, `npm run dev`)
+  - How to run it locally (clone, install, set env vars, `pnpm dev`)
   - List of required env vars (point to `.env.example`)
   - Tech stack (Next.js, Gemini API, Tailwind, TypeScript)
 

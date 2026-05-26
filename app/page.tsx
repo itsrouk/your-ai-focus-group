@@ -158,8 +158,6 @@ function reducer(state: AppState, action: Action): AppState {
 
 export default function Home() {
   const [state, dispatch] = useReducer(reducer, initialState);
-  
-  console.log('[DEBUG] Home render, step:', state.step);
 
   // Step 1+2: Extract context → Generate personas
   const handleStart = useCallback(async (input: string) => {

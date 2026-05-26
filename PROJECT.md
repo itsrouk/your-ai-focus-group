@@ -300,12 +300,12 @@ GEMINI_API_KEY=        # From https://aistudio.google.com/apikey — requires bi
 
 ```bash
 cd "/Users/roukbook/Desktop/DESKTOP/PRODUCTS /TOOLS/Synthetic Persona Generator"
-npm run dev
+pnpm dev
 # Open http://localhost:3000
 ```
 
 Build check:
 ```bash
-npm run build   # Should show ✓ Compiled successfully with 7 routes
-npx tsc --noEmit  # Should return no errors
+pnpm build   # Should show ✓ Compiled successfully with 7 routes
+pnpm exec tsc --noEmit  # Should return no errors
 ```

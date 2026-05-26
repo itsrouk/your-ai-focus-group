@@ -11,9 +11,9 @@ You have a product idea, a tagline, a pitch, or maybe something you just want fe
 
 I spent almost 10 years working for some of the largest advertising agencies, and I can tell you: focus groups are expensive, complicated, and that's exactly why they're not a standard part of most people's marketing workflow. They should be, but they're not.
 
-Towards the end of 2025, Colgate-Palmolive partnered with a lab called PyMC to run a test. They built synthetic AI personas, asked them a bunch of purchase-intent questions, and then measured the responses against 9,300 actual human surveys. The AI responses were **90% accurate** to the real thing.
+Towards the end of 2025, Colgate-Palmolive partnered with a lab called PyMC to run a test. They built synthetic AI personas, asked them a bunch of purchase-intent questions, and then measured the responses against 9,300 actual human surveys. In that specific research setting, the synthetic responses matched human survey patterns with **up to 90% accuracy**.
 
-Now, I'm not going to sit here and tell you this tool is 90% accurate. But here's what I will tell you: even if it's only 55–60% accurate, that is a **game changer**. Because right now, most people reading this do zero focus groups. Going from nothing to a directional read in two minutes — for free — changes how you make decisions.
+Now, I'm not going to sit here and tell you this tool is 90% accurate for every idea you test. But here's what I will tell you: even if it's only directionally useful, that is a **game changer**. Because right now, most people reading this do zero focus groups. Going from nothing to a directional read in two minutes — for free — changes how you make decisions.
 
 There's real science behind this. The method is called follow-up Likert rating (FLR), and having a methodology underneath it means you're not just asking ChatGPT for vibes.
 
@@ -48,9 +48,9 @@ You need two things:
 ```bash
 git clone https://github.com/itsrouk/your-ai-focus-group.git
 cd your-ai-focus-group
-npm install
+pnpm install
 cp .env.example .env.local   # then paste your Gemini API key
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) and start testing ideas.
